@@ -6,6 +6,7 @@
 **Degree Program:** BS Computer Science
 
 ### Live Website Link
+https://jk-borja.github.io/exer02borja.html
 
 ### What are your key takeaways from this exercise?
 
