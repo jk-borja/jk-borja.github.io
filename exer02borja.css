@@ -1,0 +1,165 @@
+.header_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/bg1.jpg);
+    margin-bottom: -10px;
+}
+
+#header_logo{
+    width: 17%;
+    height: auto;
+    padding-top: 3%;
+}
+
+#home{ 
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 680%;
+    margin-top: 1%;
+    margin-bottom: -2%;
+}
+
+h3{
+    color: rgb(135, 106, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    background-color: rgb(250, 235, 215, 0.45);
+    border-radius: 42%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+}
+
+#navigation_bar{
+    position:sticky;
+    top: 0;
+    background-color:rgb(71, 158, 108);
+    text-align: center;
+    padding:2.5%;
+}
+
+nav a{
+    color: rgb(247, 247, 229);
+    font-size: 190%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    margin-right: 45px;
+}
+
+nav a:hover{
+    color: darkgray;
+}
+
+#opening_remark{
+    color: rgb(180, 179, 179);
+    font-size: 300%;
+    font-style: italic;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+
+.profile span{
+    color: rgb(153, 121, 179);
+    font-size: 140%;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+.profile p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 230%;
+    text-align: justify;
+}
+
+#profile_image{
+    width: 40%;
+    height: auto;
+    padding-left: 4%;
+    text-align: center;
+}
+
+.about_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(240, 230, 199);
+    padding-bottom: 10%;
+    padding-top: 7%;
+}
+
+.about_title{
+    color: rgb(153, 121, 179);
+    font-size: 400%;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    align-self: center;
+}
+
+.about_me{
+    font-size: 230%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    background-image: url(./images/bg2.jpg);
+    padding-bottom: 10%;
+}
+
+#footer_logo{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 15%;
+    height: auto;
+}
+
+.contacts p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    margin-bottom: 0%;
+}
+
+.socmed{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 200%;
+    color:rgb(66, 109, 188);
+    font-style: italic;
+    text-decoration: none;
+    display:flex;
+    padding: 2%;
+}
+
+.socmed:hover{
+    color: rgb(39, 74, 139);
+}
+
+#backtotop{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color: rgb(71, 158, 108);
+}
+
+#backtotop:hover{
+    color: rgb(27, 81, 50);
+}
